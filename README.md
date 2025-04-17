@@ -1,13 +1,16 @@
 # Distillation-Water-Body-Detection
 
-This research introduces the Efficient Water Body Detection Based on Knowledge Distillation for SAR Imagery, a novel knowledge distillation-based framework that significantly enhances water body detection accuracy in SAR satellite imagery while maintaining computational efficiency.
-
+This research introduces the Efficient Water Body Detection Based on Knowledge Distillation for SAR Imagery, a novel knowledge distillation-based framework that significantly enhances water body detection accuracy in SAR satellite imagery while maintaining computational efficiency. 以Unet 和 SwinUnet 为例子展示。
 
 # Sentinel-2 data Download link:
 https://github.com/cloudtostreet/Sen1Floods11
 
-# code 
-The source code will be available for download.
+
+# Input
+This project utilizes [Sentinel-2 data](https://github.com/cloudtostreet/Sen1Floods11)  data as its dataset. Please download and extract the Sentinel-2 data dataset, and configure files under the `/dataset` directory.
+
+# Output
+All results will be logged to `XXX_training.log`, including the IoU and OA metrics for both the training and validation sets.
 
 # Result
 ![](./res.png)

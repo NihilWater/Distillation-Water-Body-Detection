@@ -1,0 +1,4 @@
+.idea
+
+/pretrain/*
+!/pretrain/README.md

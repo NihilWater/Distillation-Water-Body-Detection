@@ -1,0 +1,3 @@
+Teacher_NET_NAME = 'SwinUNet_S2'
+Student_NET_NAME = 'SwinUNet_S1R'
+Teacher_PRETRAIN_MODEL = "SwinUNet_S2_168_0.7889955639839172.cp"
